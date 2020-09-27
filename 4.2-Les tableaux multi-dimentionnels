@@ -12,3 +12,4 @@ foreach($indianaJonesMovies as $movie=>$actor){
   };
   echo"\n";
 };
+?>
