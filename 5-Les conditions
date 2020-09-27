@@ -1,0 +1,17 @@
+<?php
+$weapons = ['fists', 'whip', 'gun'];
+$opponentWeapon = $weapons[rand(0,2)];
+
+switch ($opponentWeapon) {
+  case 'fists':
+    $indyWeapon='gun';
+    break;
+  case 'whip':
+    $indyWeapon='fists';
+    break;
+  case 'gun':
+    $indyWeapon='whip';
+    break;
+};
+
+echo 'Indy weapon is '.$indyWeapon. ' as the opponent weapon is '. $opponentWeapon.'.';
