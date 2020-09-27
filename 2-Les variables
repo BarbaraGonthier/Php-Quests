@@ -1,0 +1,9 @@
+$movieTitle= 'Indiana Jones and the Last Crusade'; 
+$alreadyWatched= true;
+$yearOfRelease= 1989;
+$MovieRateOnImbd= 8.2;
+
+echo "$movieTitle\n";
+echo "$alreadyWatched\n";
+echo "$yearOfRelease\n";
+echo "$MovieRateOnImbd\n";
