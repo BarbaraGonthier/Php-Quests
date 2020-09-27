@@ -10,3 +10,4 @@ asort($indianaJonesMovies);
 foreach($indianaJonesMovies as $title =>$year){
   echo $year.'-'.$title."\n";
 };
+?>
