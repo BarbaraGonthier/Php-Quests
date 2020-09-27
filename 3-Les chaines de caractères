@@ -1,0 +1,7 @@
+<?php
+$message="0@sn9sirppa@#?ia'jgtvryko1";
+
+$keyNumber = strlen($message)/2;
+
+
+echo strrev((str_replace('@#?',' ',substr($message,5, $keyNumber))));
