@@ -1,0 +1,8 @@
+<?php
+function writeSecretSentence (string $par1, string $par2)
+{
+  return $par1." s'incline face à ".$par2;
+};
+
+echo writeSecretSentence ('Le lion', 'la lune');
+?>
