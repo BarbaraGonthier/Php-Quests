@@ -5,3 +5,4 @@ $keyNumber = strlen($message)/2;
 
 
 echo strrev((str_replace('@#?',' ',substr($message,5, $keyNumber))));
+?>
