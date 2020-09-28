@@ -5,9 +5,9 @@ $indianaJonesMovies=[
   'Indiana Jones and the Last Crusade' =>['Harrison Ford,','River Phoenix,','Denholm Elliott.',]
 ];
 
-foreach($indianaJonesMovies as $movie=>$actor){
+foreach($indianaJonesMovies as $movie=>$actors){
   echo 'Dans le film '. $movie.', les principaux acteurs sont: ';
-  foreach($indianaJonesMovies[$movie] as $actor){
+  foreach($actors as $actor){
     echo $actor.' ';
   };
   echo"\n";
